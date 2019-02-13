@@ -1,6 +1,6 @@
 const Discord = require('discord.js');
 const client = new Discord.Client();
-var prefix = "-"
+var prefix = "A"
 
 
 client.on('ready', function() {
@@ -90,7 +90,7 @@ msg.delete();
 //////////////////////////////
 client.on("ready", () => { // كود رينبو
   function lol() {
-    client.guilds.get('511582404113072138').roles.find("name", "Rainbow").setColor("RANDOM");
+    client.guilds.get('531202861518815245').roles.find("name", "Rainbow").setColor("RANDOM");
   };
   setInterval(lol, 2000);
 });
